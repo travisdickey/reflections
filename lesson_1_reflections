@@ -1,0 +1,19 @@
+Using the diff program allows you to easily find typos and other such errors between versions. It allows the programmer a quick and easy way to identify problem areas.
+
+I had no idea you could revert to previous versions in Google Docs or Dropbox. I knew you could view the history in Wikipedia, but I never thought about the value in comparing current versions to previous versions, at least I never thought very deeply about it, didn't seem relevant to me.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- The pros are that you can do it when it logically makes sense. This makes it easier to go back and understand the changes later. The cons mainly are that you may forget to do it.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Mainly because Git and systems like Google Docs are designed for different purposes. Google Docs is primarily a document editor, but Git is designed for programming. Tracking versions of multiple, interrelated files helps the programmer manage and understand the complexity and interaction of the multiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+- Git Log allows you to view all the commits that have been made in the repository. Git diff allows you to compare different commits to one another, which can help you identify errors.
+
+How might using version control make you more confident to make changes that could break something?
+- Knowing that you can undo changes, or revert to previous versions, allows you to take risks without having to worry about breaking things permanently.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+- I'd like to us Git to download source code and change it for my purposes. For instance, I might like to use Git to help me build a website for my narration business.
