@@ -3,3 +3,6 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - The staging area is a place to save changes before committing them, allowing you the opportunity to keep all commits to a single logical change.
+
+How can you use the staging area to make sure you have one commit per logical change?
+- Holding changes in the staging area allows you to make changes to multiple files if need be until you have one logical change ready for committing. Using "git diff" and "git diff --staged" allows you to double-check that you have made the changes the way you want to. 
