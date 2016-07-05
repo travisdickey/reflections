@@ -5,4 +5,7 @@ How is the staging area different from the working directory and the repository?
 - The staging area is a place to save changes before committing them, allowing you the opportunity to keep all commits to a single logical change.
 
 How can you use the staging area to make sure you have one commit per logical change?
-- Holding changes in the staging area allows you to make changes to multiple files if need be until you have one logical change ready for committing. Using "git diff" and "git diff --staged" allows you to double-check that you have made the changes the way you want to. 
+- Holding changes in the staging area allows you to make changes to multiple files if need be until you have one logical change ready for committing. Using "git diff" and "git diff --staged" allows you to double-check that you have made the changes the way you want to.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- If you want to experiment with new changes, especially if you want to do that while also continuing to enhance the master branch, using branches is the most efficient way. It allows you to keep track of all the changes and merge changes down the line if need be. 
