@@ -11,4 +11,7 @@ What are some situations when branches would be helpful in keeping your history 
 - If you want to experiment with new changes, especially if you want to do that while also continuing to enhance the master branch, using branches is the most efficient way. It allows you to keep track of all the changes and merge changes down the line if need be.
 
 How do the diagrams help you visualize the branch structure?
-- Diagrams help you see the whole history of commits as well as identify different branches and any unreachable commits. 
+- Diagrams help you see the whole history of commits as well as identify different branches and any unreachable commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- Mergine branches makes the two branches into one and keeps all the commits from each one available. We represent them as we do in the diagram to indicate that the master has become the merging of the two branches, while keeping the idea that the two were at one time separate branches. 
